@@ -1,0 +1,10 @@
+logging.level:
+  org.neo4j.driver:
+    Driver: debug
+    GraphDatabase: debug
+    OutboundMessageHandler: debug
+    InboundMessageDispatcher: debug
+spring.neo4j:
+  uri: ${neo4j.uri}
+  authentication.username: ${neo4j.username}
+  authentication.password: ${neo4j.password}

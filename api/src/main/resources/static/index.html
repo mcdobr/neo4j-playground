@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmx Hello World</title>
+    <!-- Include htmx library -->
+    <script src="https://unpkg.com/htmx.org@1.7.0/dist/htmx.js"></script>
+</head>
+<body>
+
+<!-- A button that will fetch a "Hello, World!" message when clicked -->
+<button hx-get="." hx-target="#message">Say Hello</button>
+
+<!-- This is where the "Hello, World!" message will be displayed -->
+<div id="message"></div>
+
+</body>
+</html>
